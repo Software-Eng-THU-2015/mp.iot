@@ -4,9 +4,9 @@ var request = require("request");
 var fs = require("fs");
 var path = require("path");
 
-var token = "chendaxixi";
-var appid = "wx87b3855d89436d96";
-var appsec = "4d68e68b7f53bc0c78752605b0dab364"; 
+var token = "";
+var appid = "";
+var appsec = ""; 
 
 var custom_url = "https://api.weixin.qq.com/cgi-bin/message/custom/send"
 var device_url = "https://api.weixin.qq.com/device/"
