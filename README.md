@@ -16,7 +16,7 @@
 	3. appsrc
 3. wrist_nodejs/routes/m_wechat.js下为各消息、推送事件的处理
 4. wrist_nodejs/routes/tools.js内为主动调用的API
-5. 用于微信测试号：将app.js的端口(app.listen)改成80端口，或者用Nginx、Apache将80端口转发到10024端口
+5. 用于微信测试号：node app.js开启对80端口的监听(已有Nginx/Apache服务器的童鞋可自行换个端口做个转发)
 
 ###Wechat 主动调用API
 

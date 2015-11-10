@@ -58,6 +58,6 @@ app.use(function(err, req, res, next) {
   });
 });
 
-app.listen(10024);
+app.listen(80);
 
 module.exports = app;
